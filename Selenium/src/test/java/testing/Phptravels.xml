@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Phptravels suite">
+  <test verbose="2" name="Test 1">
+       <classes>
+   
+      <class name="testing.Phptravels">
+      
+        <methods>
+            <include name="setup"/>
+            <include name="user"/>
+            <include name="logout"/>
+        </methods>
+        </class>
+       <!-- TmrsLogin.TmrsLogin1 -->
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
